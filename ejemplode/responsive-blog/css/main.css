@@ -1,0 +1,86 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+.container{
+    width: 90%
+    margin:0 auto;
+}
+.headerblack{
+	background-color: #000000;
+}
+.menu{
+	font-family: Open Sans;
+    font-style: italic;
+}
+.menu a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FFFFFF;
+	padding: 30px 15px;
+}
+.menu a:hover{
+	color: #EFB366;
+}
+.banner{
+	background: url("../image/header-image.jpg");
+	background-size: 100%;
+	height: 550px;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+.spring{    
+	width: 600px;
+    height: 150px;
+    text-align: center;
+    background-color: #1C1821;
+    margin: 0 auto;
+    padding: 20px;
+}
+.spring-text{
+	font-family: Courgette;
+	font-weight:bold;
+	font-size: 80px;
+	margin: 0px;
+	color: #EFB366;
+}
+.spring-textt{
+    font-family: Open Sans;
+    font-style: italic;
+}
+.spring-textt a{
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 15px 10px;
+}
+.spring-textt a:hover{
+    color: #EFB366;
+}
+.img_uno{
+	background-image: url(../image/image7.jpg);
+	background-size: cover;
+	height: 300px;
+	color: #FFFFFF;
+}
+.img_dos{
+	background-image: url(../image/image3.jpg);
+	background-size: cover;
+	height: 300px;
+	color: #FFFFFF;
+}
+.img_tres{
+	background-image: url(../image/image2.jpg);
+	background-size: cover;
+	height: 300px;
+	color: #FFFFFF;
+}
+
+

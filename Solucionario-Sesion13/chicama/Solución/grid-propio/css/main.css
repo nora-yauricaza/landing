@@ -1,0 +1,76 @@
+/* Resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+ }
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+/* Utilities */
+.text-center {
+	text-align: center;
+}
+.text-right {	text-align: right;
+}
+.mt-5 {
+	margin-top: 5%;
+}
+/* header */
+.hero-image {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/grupal.jpg") ;
+	background-size: cover;
+}
+.btn-sumate {
+	display: block;
+	z-index: 10;
+	background-color: #fcb739;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: inherit;
+	border-radius: 4px;
+}
+.btn-sumate:hover {
+	background-color: #f4ab27;
+}
+.logo-header {
+	width: 100%;
+	height: 100%;
+	margin-top: 20%;
+}
+/* menu */
+nav {
+	margin-top: 17%;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	margin: 3% 2%;
+	display: inline-block;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+/* Grilla */
+.grid {
+	margin: 5% 0%;
+}
+.grid img {
+	width: 100%;
+}
+h3{
+	border-bottom: 1px solid black;
+	text-align: left;
+}
+/* footer */
+footer {
+	background-color: #323230 ;
+	padding: 2% 0%;
+	color: white;
+}

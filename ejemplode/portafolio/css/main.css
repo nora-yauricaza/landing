@@ -1,0 +1,11 @@
+.col-lg-6{
+	min-height: 100px;
+	background-color: blue;
+}
+.col-md-4{
+	min-height: 100px;
+	background-color: gray;
+}
+header{
+	color: yellow;
+}

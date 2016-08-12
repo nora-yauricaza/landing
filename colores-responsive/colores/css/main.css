@@ -1,0 +1,81 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: green;
+}
+.side{
+	display: block;
+}
+@media(min-width: 375px){
+	body{
+		background-color: yellow;
+	}/*320
+}
+@media(min-width: 667px){
+	body{
+		background-color: red;
+	}/*320*/
+/*}
+@media(min-width: 1024px){
+	body{
+		background-color: yellow;
+	}/*320*/
+	/*.sidebar{
+	display: block;
+	}
+/*}*/
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: blue;
+}
+@media(max-width: 1024px){
+}
+
+@media(max-width: 768px){
+	.video{
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+	}
+.video iframe, .video object .video embed{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+@media(max-width: 480px){
+}
+#sg-nav {
+    top: 20px;
+    left: 20px;
+    position: fixed;
+}
+#sg-nav-trigger {
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #c49b0b;
+    cursor: pointer;
+    width: 44px;
+    height: 40px;
+}
+#sg-nav-trigger span {
+    background: #c49b0b;
+    display: block;
+    margin: 4px auto;
+    width: 30px;
+    height: 3px;
+}
+
+

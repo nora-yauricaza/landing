@@ -1,0 +1,79 @@
+/* Inserta tu codigo aqui */
+.logo{
+	width: 100px;
+}
+.menu{
+	margin-top: 30px;
+	text-align: left;
+	padding-top: 10px;
+}
+.menu2{
+ 	text-decoration: none;
+ 	color:gray;
+ 	padding: 0px 10px 0px 10px;
+ }
+
+.semilla{
+	background-image: url(../img/semilla.jpg);
+	background-position: center;
+	height: 450px;
+}
+
+/*------------SECCION------------------*/
+.nosotros{
+ 	padding: 50px 0px;
+ 	text-align: center;
+ }
+ .mision_vision{
+ 	width: 200px;
+ }
+.nos h3{
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.img-metodo{
+	background-image: url(../img/metodo.jpg);
+	background-size: cover;
+	height: 450px;
+}
+.icono-metodo{
+	width: 60px;
+}
+.metodologia{
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	height: 450px;
+}
+.concepto-metodo{
+	text-align: center;
+	width: 100%;
+	padding: 60px;
+}
+.conceptometod h2{
+	padding: 20px 0px;
+}
+/*-------------SERVICIOS--------------*/
+.servicios{
+	padding: 10px 0px 15px 0px;
+}
+
+.tipo-servicios img{
+	width: 100px;
+}
+.tipo-servicios h2{
+	color: #628039;
+	padding: 10px 0px 10px 0px;
+}
+/*-------------SECCION PROYECTOS-----------------*/
+.proyecto{
+	background-color: #5E8039;
+	padding: 50px 0px 0px 30px;
+}
+.title-proyecto{
+	padding: 0px 0px 30px 0px;
+	margin: 0 auto;
+	font-size: 30px;
+}
+.img-proyecto{
+ 	margin-bottom: 10px;
+}

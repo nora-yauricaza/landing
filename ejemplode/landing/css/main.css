@@ -1,0 +1,51 @@
+/* Tu CSS va aqui */
+*{
+    font-family: "Open Sans"; 
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+    padding: 0% 9%;
+}
+.main-menu a:hover{
+    color: #A7C244;
+}
+.texto {
+}
+h1{
+    font-size: 200%;
+}
+.texto-min{
+    font-size: 90%;
+}
+.formulario{
+    width: 57%;
+    border-radius: 5%;
+    padding: 5%;
+    margin: 13% 0%
+}
+h3{
+    text-align: center;
+}
+footer{
+
+}
+.boton{
+    background-color: #3EB0F7;
+    color: white;
+    width: 100%;
+}
+@media (max-width : 535px) {
+    .form{
+        width: 100%;
+    }
+    .formulario{
+        width: 100%;
+    }
+}
